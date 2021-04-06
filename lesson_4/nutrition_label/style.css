@@ -1,0 +1,100 @@
+/*------ root information ------*/
+
+body {
+  font-size: 28px;
+  border: 2px solid black;
+  width: 680px;
+  font-family: helvetica, sans-serif;
+  box-sizing: border-box;
+  padding: 5px 15px;
+}
+
+/*-------- reset margin -------*/
+
+h1, p, dl, dd, dt{
+  margin: 0;
+}
+
+/* -------- classes ---------- */
+
+.indented {
+  border: none;
+  text-indent: 30px;
+}
+
+/*--------- header -----------*/
+
+header, main tbody {
+  border-bottom: 30px solid black;
+  padding: 5px 0;
+}
+
+/*---------- tables ----------*/
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+main td, main th {
+  border-top: 1px solid black;
+  padding: 2px 0;
+}
+
+main td:last-of-type {
+  text-align: right;
+}
+
+main tbody td:last-of-type {
+  font-weight: bold;
+}
+
+thead th {
+  text-align: left;
+  padding: 10px 0;
+}
+
+thead {
+  border-bottom: 15px solid black;
+}
+
+main tbody th {
+  text-align: right;
+  padding-top: 10px;
+}
+
+tfoot tr:last-child td {
+  text-align: justify;
+  font-size: 1.5rem
+}
+
+footer table {
+  font-size: 1.4rem;
+  text-align: left;
+  padding: 5px 0;
+}
+
+footer th {
+  font-weight: normal;
+}
+
+footer tr:first-child {
+  border-bottom: 1px solid black;
+}
+
+
+/*----- description lists ----*/
+
+thead dl {
+  padding: 4px 0;
+}
+
+dt {
+  display: inline-block;
+  font-weight: bold;
+}
+
+dd {
+  display: inline-block;
+}
+
