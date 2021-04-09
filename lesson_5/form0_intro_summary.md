@@ -1,6 +1,6 @@
 ## Introduction
 
-Forms are the main way that users send information to a server to update a webpage. HTML5 gives us over 10 different form tags and over 20 different ways to allow input from a user. You only need to know around 6 tags and 12 input types to create forms which will be covered in this lesson.
+Forms are the main way that users send information to a server. HTML5 gives us over 10 different form tags and over 20 different ways to allow input from a user. You only need to know around 6 tags and 12 input types to create forms which will be covered in this lesson.
 
 ### What to focus on
 

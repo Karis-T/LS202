@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Contact Form</title>
+  <meta charset="utf-8"/>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <form action="#" method="post">
+    <fieldset>
+      <dl class="partial half left">
+        <dt><label for="first-name">First Name</label></dt>
+        <dd><input id="first-name" name="first-name" type="text"/></dd>
+      </dl><!--
+
+      --><dl class="partial half right">
+        <dt><label for="last-name">Last Name</label></dt>
+        <dd><input id="last-name" name="last-name" type="text"/></dd>
+      </dl>
+
+      <dl>
+        <dt><label for="email">Email</label></dt>
+        <dd><input id="email" name="email" type="email"/></dd>
+      </dl>
+
+      <dl class="partial half left">
+        <dt><label for="city">City</label></dt>
+        <dd><input id="city" name="city" type="text"/></dd>
+      </dl><!--
+
+      --><dl class="partial one-tenth">
+        <dt><label for="state">State</label></dt>
+        <dd><select id="state" name="state">
+          <option value="act">ACT</option>
+          <option value="nsw">NSW</option>
+          <option value="nt">NT</option>
+          <option value="qld">QLD</option>
+          <option value="sa">SA</option>
+          <option value="tas">TAS</option>
+          <option value="wa" selected>WA</option>
+        </select></dd>
+      </dl><!--
+
+      --><dl class="partial four-tenths right">
+        <dt><label for="postcode">Postcode</label></dt>
+        <dd><input type="text" name="postcode" id="postcode" pattern="[0-9]{4}" /></dd>
+      </dl>
+
+      <p>Which of these colours do you like best?</p>
+      <ul>
+        <li><label><input value="red" name="colours" type="radio" checked/>Red</label></li>
+        <li><label><input value="blue" name="colours" type="radio"/>Blue</label></li>
+        <li><label><input value="yellow" name="colours" type="radio"/>Yellow</label></li>
+        <li><label><input value="purple" name="colours" type="radio"/>Purple</label></li>
+        <li><label><input value="purple" name="colours" type="radio"/>Green</label></li>
+        <li><label><input value="purple" name="colours" type="radio"/>Orange</label></li>
+      </ul>
+
+      <p>Which web technologies do you want to learn?</p>
+      <ul>
+        <li><label><input value="python" name="language" type="checkbox"/>Python</label></li>
+        <li><label><input value="javascript" name="language" type="checkbox"/>Javascript</label></li>
+        <li><label><input value="c#" name="language" type="checkbox"/>C#</label></li>
+        <li><label><input value="ruby" name="language" type="checkbox"/>Ruby</label></li>
+        <li><label><input value="go" name="language" type="checkbox"/>Go</label></li>
+        <li><label><input value="django" name="language" type="checkbox"/>Django</label></li>
+      </ul>
+
+      <dl>
+      <dt><label for="comments">Comments</label></dt>
+      <dd><textarea rows="6" cols="80" name="comments" id="comments"></textarea><dd>
+      </dl>
+      <input type="hidden" value="2021-01-01" name="timestamp" />
+      <input type="submit" value="Send" />
+      <input type="reset" />
+    </fieldset>
+  </form>
+</body>
+</html>
