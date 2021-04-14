@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <style>
+    body, section, article, aside, footer {
+    margin: 0;
+    padding: 0;
+    }
+
+    body{
+    background-color: lightsteelblue;
+    }
+
+    section {
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: grey;
+    }
+
+    article, aside, footer {
+    padding: 1rem;
+    box-sizing: border-box;
+    }
+
+    article {
+    width: 70%;
+    background-color: seagreen;
+    float: left;
+    }
+
+    aside {
+    background-color: yellowgreen;
+    float: none;
+    overflow: hidden;
+    }
+
+    section::after {
+    clear: both;
+    content: "";
+    display: block;
+    }
+
+    footer{
+    background: white;
+    clear: both;
+    }
+  </style>
+</head>
+<body>
+  <section>
+    <article>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tincidunt, quam et volutpat porttitor, nisi nisl ultrices augue, consectetur iaculis enim tortor vitae purus. Donec bibendum feugiat ante hendrerit vestibulum. Duis malesuada pulvinar ligula in vestibulum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vivamus vehicula erat maximus massa feugiat, at cursus enim suscipit. Sed facilisis varius pharetra. Mauris ac faucibus metus. Proin pellentesque nibh lorem, ac volutpat tellus accumsan nec. Curabitur eget neque sit amet purus bibendum congue. Donec rhoncus scelerisque ex nec placerat. Integer dapibus nibh erat, a sagittis leo tincidunt vel. Nullam commodo viverra pretium. Duis lacinia eu neque vel mattis. Vestibulum ut lacinia sem, non fermentum est. Curabitur diam neque, dignissim at nisl eu, gravida semper leo. Nulla eu sapien ut est ullamcorper ultrices ut eu felis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tincidunt, quam et volutpat porttitor, nisi nisl ultrices augue, consectetur iaculis enim tortor vitae purus. Donec bibendum feugiat ante hendrerit vestibulum. Duis malesuada pulvinar ligula in vestibulum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vivamus vehicula erat maximus massa feugiat, at cursus enim suscipit. Sed facilisis varius pharetra. Mauris ac faucibus metus. Proin pellentesque nibh lorem, ac volutpat tellus accumsan nec. Curabitur eget neque sit amet purus bibendum congue. Donec rhoncus scelerisque ex nec placerat. Integer dapibus nibh erat, a sagittis leo tincidunt vel. Nullam commodo viverra pretium. Duis lacinia eu neque vel mattis. Vestibulum ut lacinia sem, non fermentum est. Curabitur diam neque, dignissim at nisl eu, gravida semper leo. Nulla eu sapien ut est ullamcorper ultrices ut eu felis.
+    </p>
+    </article>
+    <aside>
+      <p>Nullam semper vehicula dolor, vel feugiat arcu eleifend quis. Ut posuere bibendum leo eu facilisis. Proin porttitor, lectus eu sollicitudin cursus, nibh velit interdum diam, in ultricies enim orci sed lacus. Duis erat metus, aliquam ut purus at, gravida sodales velit. Suspendisse a eleifend sapien. Suspendisse ultrices dignissim nulla, nec tempor mauris vulputate sed. Sed viverra congue arcu, in vehicula est tincidunt eget. Mauris dictum enim id erat dignissim tempus. Donec facilisis sit amet dolor quis rutrum. Aenean non nulla lacinia, interdum lorem sodales, auctor augue. Praesent consectetur blandit bibendum. Cras ac scelerisque mauris, eu tincidunt neque.</p>
+    </aside>
+    <footer>
+      <p>Donec rhoncus scelerisque ex nec placerat. Integer dapibus nibh erat, a sagittis leo tincidunt vel. Nullam commodo viverra pretium. Duis lacinia eu neque vel mattis. Vestibulum ut lacinia sem, non fermentum est. Curabitur diam neque, dignissim at nisl eu, gravida semper leo. Nulla eu sapien ut est ullamcorper ultrices ut eu felis.</p>
+  </section>
+</body>
+</html>
