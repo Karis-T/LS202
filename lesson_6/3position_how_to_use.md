@@ -30,8 +30,8 @@ This property tells the browser how to position selected elements
 
 Static is the default element position. 
 
-- floated, grid, flex, absolute and fixed positioning all are removed from the document flow
-- static and relative are apart of the page flow and don't get removed.
+- `floated`,` grid`, `flex`, `absolute` and `fixed` positioning all are removed from the document flow
+- `static` and `relative` are apart of the page flow and don't get removed.
 - offset properties don't affect static elements
 
 #### What is `position: relative`?
